@@ -31,7 +31,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Rishabh Rishu",
+          to_name: "Yusuf Mansoor",
           from_email: form.email,
           to_email: "rr931996@gmail.com",
           message: form.message,
@@ -61,9 +61,9 @@ const Contact = () => {
         <section className="mt-12 flex flex-col gap-4">
           <p className={styles.sectionSubText}>Education</p>
           <div className="text-white font-medium mb-2">
-            <p>B-Tech (ECE) | 2018 Dr. KNMEIT, Ghaziabad (Uttar Pradesh)</p>
-            <p>Intermediate | 2014 BIC, Padrauna (Uttar Pradesh)</p>
-            <p>SSC | 2011 Air Force School, Jodhpur (Rajasthan)</p>
+            <p>BE (CSE) | 2019 Brahmdevdada Mane Institute Of Technology, (Solapur)</p>
+            <p>Diploma (CSE) | 2015 Brahmdevdada Mane Polytecnic, (Solapur)</p>
+            <p>SSC | 2011 Saraswti vidya Mandir (Pune)</p>
           </div>
         </section>
 
@@ -71,15 +71,15 @@ const Contact = () => {
           <p className={styles.sectionSubText}>Additional Details</p>
           <div className="text-white font-medium mb-2">
             <p>
-              <a href="tel:9097818906" className="hover:underline">Phone Number:  9097818906</a>
+              <a href="tel:9097818906" className="hover:underline">Phone Number:  8668543345</a>
             </p>
             <p>
-              <a href="mailto:ece.rishabh@gmail.com" className="hover:underline">Email Id:  ece.rishabh@gmail.com</a>
+              <a href="mailto:work.myusuf@gmail.com" className="hover:underline">Email Id:  work.myusuf@gmail.com</a>
             </p>
             <p>
-              <a href="https://www.linkedin.com/in/rishabhrishu/" className="hover:underline">Linkedin:  @RishabhRishu</a>
+              <a href="www.linkedin.com/in/yusuf-mansoor-93a94618b" className="hover:underline">Linkedin:  @YusufMansoor</a>
             </p>
-            <p>Address:  Opposite to Dr. Meraj Alam, Naraniya, Mirganj, Bihar (841438)</p>
+            <p>Address:  Kajalnagar Majrewadi solapur</p>
           </div>
         </section>
       </motion.div>

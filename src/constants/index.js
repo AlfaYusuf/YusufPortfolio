@@ -124,7 +124,7 @@ const experiences = [
     company_name: "Inventrax, Hyderabad",
     icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Present",
+    date: "Dec 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -132,23 +132,23 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  // {
+  //   title: "Career Break",
+  //   company_name: "",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Feb 2019 - Aug 2021",
+  //   points: [
+  //     "Focused on preparing for the GATE entrance exam.",
+  //     "Simultaneously enhancing my web development skills through dedicated projects and coursework.",
+  //   ],
+  // },
   {
-    title: "Career Break",
-    company_name: "",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Feb 2019 - Aug 2021",
-    points: [
-      "Focused on preparing for the GATE entrance exam.",
-      "Simultaneously enhancing my web development skills through dedicated projects and coursework.",
-    ],
-  },
-  {
-    title: "Data Engineer",
-    company_name: "AI Touch",
+    title: "Intern (FrontEnd Developer)",
+    company_name: "Uppertrust Technology Private Limited",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jul 2018 - Jan 2019",
+    date: "Sept 2021 - Sept 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -161,7 +161,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Working with Rishabh has been fantastic; their expertise and attention to detail have been key in creating an innovative and seamless web application.",
+      "Working with Yusuf has been fantastic; their expertise and attention to detail have been key in creating an innovative and seamless web application.",
     name: "Ravi Kumar Tyadi",
     designation: "Software Developer at",
     company: "TCS",
@@ -169,7 +169,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Rishabh's exceptional skills and commitment have played a crucial role in crafting an innovative web application, consistently driving our project's success.",
+      "Yusuf's exceptional skills and commitment have played a crucial role in crafting an innovative web application, consistently driving our project's success.",
     name: "Sharjeel Khan",
     designation: "Sr. Business Analyst at",
     company: "Inventrax",
