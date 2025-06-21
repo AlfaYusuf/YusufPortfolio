@@ -25,6 +25,7 @@ import {
   threejs,
   ravi,
   mirza,
+  JarkLogo
 } from "../assets";
 
 export const navLinks = [
@@ -120,11 +121,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Jark, Pune",
+    icon: JarkLogo,
+    iconBg: "#E6DEDD",
+    date: "March 2025 - Present",
+    points: [
+    "Built and styled responsive UI components with Material UI, maintaining a consistent design system for customer behavior analytics, trend forecasting, and revenue leakage detection.",
+        "Developed high-performance client-side and server-side rendering with Next.js, improving SEO and load times for marketing and platform pages.",
+        "Integrated GraphQL APIs for efficient querying and real-time data updates related to customer intent, merchant scoring, and revenue optimization metrics.",
+        "Implemented Redis-based caching strategies for frequently accessed behavioral insights, improving dashboard performance and reducing latency."
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "Inventrax, Hyderabad",
     icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "Dec 2021 - Present",
+    date: "Dec 2021 - Feb 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -187,6 +201,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Looq-Up",
+    description:
+      "Spearheaded the development of interactive landing pages and enterprise dashboards using React.js and Next.js, enabling businesses to unlock insights from 50M+ payment transactions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Graphql & Redis",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://dev.payments.looquplab.com/talktodata",
+  },
+  {
     name: "SKUBIQ",
     description:
       "This SAAS-based Warehouse Management System optimizes and streamlines warehouse order activities with effective tracking and tracing.",
@@ -235,31 +274,6 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://myoms.nilkamal.online/",
-  },
-  {
-    name: "CR Portal",
-    description:
-      "CR, a Customer Request Management app, simplifies project and customer request tracking with a user-friendly interface and a clear data visualization dashboard.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "antd",
-        color: "green-text-gradient",
-      },
-      {
-        name: ".net core",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "sql",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://csp.inventrax.com/",
   },
 ];
 
