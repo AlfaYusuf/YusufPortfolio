@@ -30,7 +30,7 @@ import mirza from "./company/mirza.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from  "./jobit.PNG";
+import jobit from  "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
