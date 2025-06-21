@@ -63,6 +63,7 @@ export {
   tesla,
   carrent,
   jobit,
+  JarkLogo,
   tripguide,
-  JarkLogo
+  
 };
