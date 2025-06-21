@@ -20,12 +20,12 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
   tripguide,
   threejs,
   ravi,
   mirza,
-  JarkLogo
+  JarkLogo,
+  ribbon
 } from "../assets";
 
 export const navLinks = [
@@ -272,7 +272,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
+    image: ribbon,
     source_code_link: "https://myoms.nilkamal.online/",
   },
 ];
