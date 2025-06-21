@@ -30,7 +30,7 @@ import mirza from "./company/mirza.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import ribbon from "./ribbon.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -62,7 +62,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
   tripguide,
-  JarkLogo
+  JarkLogo,
+  ribbon
 };

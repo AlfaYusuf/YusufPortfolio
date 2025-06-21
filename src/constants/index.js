@@ -20,12 +20,12 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
   tripguide,
   threejs,
   ravi,
   mirza,
-  JarkLogo
+  JarkLogo,
+  ribbon
 } from "../assets";
 
 export const navLinks = [
@@ -122,12 +122,12 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Jark, Pune",
+    company_name: "Jark, Pune (Remote)",
     icon: JarkLogo,
     iconBg: "#E6DEDD",
     date: "March 2025 - Present",
     points: [
-    "Built and styled responsive UI components with Material UI, maintaining a consistent design system for customer behavior analytics, trend forecasting, and revenue leakage detection.",
+        "Built and styled responsive UI components with Material UI, maintaining a consistent design system for customer behavior analytics, trend forecasting, and revenue leakage detection.",
         "Developed high-performance client-side and server-side rendering with Next.js, improving SEO and load times for marketing and platform pages.",
         "Integrated GraphQL APIs for efficient querying and real-time data updates related to customer intent, merchant scoring, and revenue optimization metrics.",
         "Implemented Redis-based caching strategies for frequently accessed behavioral insights, improving dashboard performance and reducing latency."
@@ -210,7 +210,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "MUI",
+        name: "M-UI",
         color: "green-text-gradient",
       },
       {
@@ -272,7 +272,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
+    image: ribbon,
     source_code_link: "https://myoms.nilkamal.online/",
   },
 ];
