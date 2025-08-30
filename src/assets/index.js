@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import JarkLogo from "./company/JarkLogo.png"
+import TurnKeyLogo from "./company/TurnKeyLogo.png"
 import ravi from "./company/ravi.png";
 import mirza from "./company/mirza.png"
 import tesla from "./company/tesla.png";
@@ -64,5 +65,6 @@ export {
   carrent,
   tripguide,
   JarkLogo,
+  TurnKeyLogo,
   ribbon
 };
