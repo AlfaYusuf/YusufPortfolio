@@ -25,6 +25,7 @@ import {
   ravi,
   mirza,
   JarkLogo,
+  TurnKeyLogo,
   ribbon
 } from "../assets";
 
@@ -120,12 +121,26 @@ const technologies = [
 ];
 
 const experiences = [
+   {
+    title: "Frontend Software Engineer",
+    company_name: "Turnkey Learning, Hyderabad",
+    icon: TurnKeyLogo,
+    iconBg: "#E6DEDD",
+    date: "Aug 2025 - Present",
+    points: [
+        "Currently leading front-end development for an AI-driven drug discovery platform, enabling researchers to explore protein structures and interactions through an interactive web interface.",
+        "Built and maintained a fully responsive web application using React.js, integrated with Python-based AI services over WebSockets to support real-time communication with an intelligent agent that answers scientific questions about proteins.",
+        "Designed and implemented 3D molecular visualization modules for rendering complex protein structures directly in the browser, leveraging modern WebGL libraries to deliver smooth, high-performance interaction.",
+        "Collaborated with backend and AI teams to deploy scalable services on AWS, ensuring low-latency data streaming and secure handling of large biological datasets.",
+        "Contributed to the development of a novel AI agent for protein research, bridging advanced computational biology with a user-friendly visualization layer."
+    ],
+  },
   {
     title: "Frontend Developer",
     company_name: "Jark, Pune (Remote)",
     icon: JarkLogo,
     iconBg: "#E6DEDD",
-    date: "March 2025 - Present",
+    date: "March 2025 - Aug 2025",
     points: [
         "Built and styled responsive UI components with Material UI, maintaining a consistent design system for customer behavior analytics, trend forecasting, and revenue leakage detection.",
         "Developed high-performance client-side and server-side rendering with Next.js, improving SEO and load times for marketing and platform pages.",
