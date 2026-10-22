@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import ai from "./ai.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import openai from "./tech/openai.svg";
+import python from "./tech/python.svg";
+import langchain from "./tech/langchain.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,6 +37,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import ribbon from "./ribbon.png"
 import tripguide from "./tripguide.png";
+import admet from "./admet.png";
+import drugdiscovery from "./drugdiscovery.png";
+import analytics from "./analytics.png";
 
 export {
   logo,
@@ -43,6 +50,7 @@ export {
   github,
   menu,
   close,
+  ai,
   css,
   docker,
   figma,
@@ -56,6 +64,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  openai,
+  python,
+  langchain,
   meta,
   ravi,
   mirza,
@@ -66,5 +77,8 @@ export {
   tripguide,
   JarkLogo,
   TurnKeyLogo,
-  ribbon
+  ribbon,
+  admet,
+  drugdiscovery,
+  analytics
 };

@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  ai,
   javascript,
   typescript,
   html,
@@ -26,7 +27,13 @@ import {
   mirza,
   JarkLogo,
   TurnKeyLogo,
-  ribbon
+  ribbon,
+  openai,
+  python,
+  langchain,
+  admet,
+  drugdiscovery,
+  analytics
 } from "../assets";
 
 export const navLinks = [
@@ -50,74 +57,80 @@ const services = [
     icon: web,
   },
   {
-    title: "React Hooks & Context API",
-    icon: mobile,
+    title: "AI/ML Integration & LLM APIs",
+    icon: ai,
   },
   {
-    title: "State Management (Redux, Mobx)",
+    title: "Generative AI Development",
+    icon: creator,
+  },
+  {
+    title: "AI & Data Visualization",
     icon: backend,
   },
   {
-    title: "Next.js Three.js",
-    icon: creator,
+    title: "State Management (Redux, Mobx)",
+    icon: mobile,
+  },
+  {
+    title: "Next.js & Three.js",
+    icon: threejs,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Next JS",
     icon: figma,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Material UI",
-    icon: docker,
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "OpenAI / LLMs",
+    icon: openai,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "LangChain / RAG",
+    icon: langchain,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "Postgre SQL",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "Git",
     icon: git,
   },
-  
-  
 ];
 
 const experiences = [
@@ -161,17 +174,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Career Break",
-  //   company_name: "",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Feb 2019 - Aug 2021",
-  //   points: [
-  //     "Focused on preparing for the GATE entrance exam.",
-  //     "Simultaneously enhancing my web development skills through dedicated projects and coursework.",
-  //   ],
-  // },
   {
     title: "Intern (FrontEnd Developer)",
     company_name: "Uppertrust Technology Private Limited",
@@ -206,7 +208,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After optimizing our website, traffic jumped 50%. Their expertise greatly enhanced our online presence, and we’re extremely grateful!",
+      "After optimizing our website, traffic jumped 50%. Their expertise greatly enhanced our online presence, and we're extremely grateful!",
     name: "Mirza Baig",
     designation: "",
     company: "Mirza Caterers & Catering Services",
@@ -216,34 +218,84 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Looq-Up",
+    name: "AI Drug Discovery Platform",
     description:
-      "Spearheaded the development of interactive landing pages and enterprise dashboards using React.js and Next.js, enabling businesses to unlock insights from 50M+ payment transactions.",
+      "An AI-driven platform for protein research featuring real-time chat with an intelligent agent, 3D molecular visualization, and WebSocket-based communication with Python AI services.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "M-UI",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "Python",
+        name: "websockets",
         color: "pink-text-gradient",
       },
       {
-        name: "Graphql & Redis",
+        name: "three.js",
         color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
+    image: drugdiscovery,
+    source_code_link: "https://github.com/AlfaYusuf",
+  },
+  {
+    name: "AI-Powered Analytics Dashboard",
+    description:
+      "Enterprise dashboard with AI-driven insights for customer behavior analytics, trend forecasting, and revenue optimization using LLM-powered data analysis and visualization.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redis",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: analytics,
     source_code_link: "https://dev.payments.looquplab.com/talktodata",
   },
   {
-    name: "SKUBIQ",
+    name: "Intelligent Chatbot Assistant",
     description:
-      "This SAAS-based Warehouse Management System optimizes and streamlines warehouse order activities with effective tracking and tracing.",
+      "A conversational AI assistant built with LangChain and OpenAI APIs, featuring RAG pipelines for context-aware responses, memory management, and seamless integration with enterprise systems.",
+    tags: [
+      {
+        name: "langchain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vector-db",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: ribbon,
+    source_code_link: "https://github.com/AlfaYusuf",
+  },
+  {
+    name: "SKUBIQ WMS",
+    description:
+      "SAAS-based Warehouse Management System that optimizes and streamlines warehouse order activities with effective tracking and tracing for enterprise logistics.",
     tags: [
       {
         name: "react",
@@ -254,11 +306,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "material UI",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
       {
-        name: "postgre",
+        name: "postgresql",
         color: "yellow-text-gradient",
       },
     ],
@@ -266,9 +318,9 @@ const projects = [
     source_code_link: "https://wms.skubiq.com/",
   },
   {
-    name: "FALCON",
+    name: "FALCON OMS",
     description:
-      "The Order Management System optimizes warehouse activities with effective tracking and tracing, boosting efficiency and accuracy in order fulfillment.",
+      "Order Management System that optimizes warehouse activities with effective tracking and tracing, boosting efficiency and accuracy in order fulfillment.",
     tags: [
       {
         name: "react",
